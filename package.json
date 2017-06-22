@@ -1,0 +1,25 @@
+{
+    "name": "testDemo",
+    "version": "1.0.0",
+    "description": "kao2-mongdb-redis-rect-redux",
+    "main": "app.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/daihaij123456789/testDemo"
+    },
+    "keywords": [
+        "kao2",
+        "mongdb",
+        "redis",
+        "recat"
+    ],
+    "author": "jianghaiyong",
+    "license": "ISC",
+    "devDependencies": {
+
+    },
+    "dependencies": {
+
+    }
+}
