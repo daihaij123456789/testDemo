@@ -4,9 +4,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>psdtowebweblogin2.psd</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
-    <link href="reset.css" rel="stylesheet" type="text/css">
-    <link href="login.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/login.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="login_body">
@@ -18,25 +17,6 @@
         <div id="layer_8_0"><img src="images/layer_8_0.png"></div>
         <div id="layer_12"><img src="images/layer_12.png"></div>
         <div id="layer_4_0"><img src="images/layer_4_0.png"></div>
-        <!--<div >
-            <h5>用户名登陆</h5>
-            <div class="textbox">
-
-                <div><input type="text" name="account" tabindex="1" class="inputbox input-a"></div>
-                <div><input type="password" name="password" tabindex="2" class="inputbox input-a"></div>
-                <div>
-                    <input class="inputbox input-b" type="text" tabindex="3" name="checkCode">
-                    <img class="inputbox input-c">
-                </div>
-                <div class="options">
-                    <a tabindex="5" class="checkbox">记住密码</a>
-                </div>
-                <div id="tips_box"></div>
-                <button tabindex="8" class="submit">登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
-                <a href="#" class="ssl">使用SSL安全登录</a>
-            </div>
-        </div>-->
-
         <div class="login_panel">
             <div class="clearfix">
                 <div class="form_box">
@@ -44,15 +24,15 @@
                     <div class="textbox">
                         <div class="box-input">
                             <label class="account">用户名</label>
-                            <input type="text" name="account" tabindex="1" class="inputbox box-input-inputbox" style="color: rgb(153, 153, 153);">
+                            <input type="text" name="account" tabindex="1" class="inputbox box-input-inputbox" style="color: rgb(153, 153, 153);" placeholder="请输入账号">
                         </div>
                         <div class="box-input">
                             <label class="password">密&nbsp;&nbsp;&nbsp;码</label>
-                            <input type="password" name="password" tabindex="2" class="inputbox box-input-inputbox">
+                            <input type="password" name="password" tabindex="2" class="inputbox box-input-inputbox" placeholder="请输入密码">
                         </div>
                         <div class="identify_box">
                             <img onclick="javascript:this.src = 'http://10.10.9.76/space/login/identify/?tm=' + Math.random();" title="单击更换验证码" class="right checkbox-img" tabindex="4" src="http://10.10.9.76/space/login/identify">
-                            <input class="inputbox checkCode" type="text" tabindex="3" name="checkCode">
+                            <input class="inputbox checkCode" type="text" tabindex="3" name="checkCode" placeholder="请输入右方的验证码">
                         </div>
                     </div>
                     <div class="options">
