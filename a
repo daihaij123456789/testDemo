@@ -1,0 +1,2 @@
+rm -rf /usr/data/mongodb/mongod.lock  
+/usr/local/mongodb/bin/mongod -f /usr/local/mongodb/bin/mongodb.conf  

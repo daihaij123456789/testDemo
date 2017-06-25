@@ -6,7 +6,10 @@
     <title>psdtowebweblogin2.psd</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/login.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
 </head>
+
 
 <body class="login_body">
     <div id="background">
@@ -22,11 +25,13 @@
                 <div class="form_box">
                     <h5>用户名登录</h5>
                     <div class="textbox">
-                        <input type="text" name="account" tabindex="1" class="inputbox inputbox-input" style="color: rgb(153, 153, 153);">
-                        <input type="password" name="password" tabindex="2" class="inputbox inputbox-input">
+                        <label class="account"><img src="images/web-login-user.png" class="login_style_img"></label>
+                        <input type="text" name="account" tabindex="1" class="login_inputbox inputbox-input login_inputbox_user" style="color: rgb(153, 153, 153);" placeholder="请输入帐号">
+                        <label class="account"><img src="images/web-login-password.png" class="login_style_img"></label>
+                        <input type="password" name="password" tabindex="2" class="login_inputbox inputbox-input login_inputbox_password" placeholder="请输入密码">
                         <div class="identify_box">
                             <img onclick="javascript:this.src = 'http://10.10.9.76/space/login/identify/?tm=' + Math.random();" title="单击更换验证码" class="right checkbox-img" tabindex="4" src="http://10.10.9.76/space/login/identify">
-                            <input class="inputbox checkCode" type="text" tabindex="3" name="checkCode" placeholder="请输入右方的验证码">
+                            <input class="login_inputbox checkCode" type="text" tabindex="3" name="checkCode" placeholder="请输入右方的验证码">
                         </div>
                     </div>
                     <div class="options">

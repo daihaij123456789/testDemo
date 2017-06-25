@@ -131,10 +131,10 @@ a {
 }
 
 .login_panel .form_box .textbox {
-    width: 260px;
-    text-align: center;
+    width: 212px;
     border-radius: 4px;
     position: relative;
+    margin-left: 32px;
 }
 
 .login_panel .form_box .textbox .box-input-inputbox {
@@ -147,7 +147,7 @@ a {
 }
 
 .checkCode {
-    border: 1px solid #bbb;
+    
 }
 
 .checkbox-img {
@@ -170,8 +170,7 @@ a {
 }
 
 .login_panel .form_box .textbox .account {
-    top: 7px;
-    left: 38px;
+    line-height: 32px;
 }
 
 .login_panel .form_box .textbox .password {
@@ -180,8 +179,7 @@ a {
 }
 
 .login_panel .form_box .identify_box {
-    width: 214px;
-    margin-left: 32px;
+    width: 100%;
 }
 
 #tips_box {
@@ -192,7 +190,23 @@ a {
     margin: 5px 0 3px 0;
     margin: 0 auto;
 }
-
+.login_style_img{
+    margin-top: 9px;
+    margin-right: 2px;
+    float: left;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+color: #bcb3a7; 
+} 
+input:-moz-placeholder, textarea:-moz-placeholder { 
+color: #bcb3a7; 
+} 
+input::-moz-placeholder, textarea::-moz-placeholder { 
+color: #bcb3a7; 
+} 
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+color: #bcb3a7; 
+} 
 #tips_box span {
     padding-left: 25px;
     border: 1px solid #7eb8ec;
@@ -216,8 +230,8 @@ a {
 }
 
 .login_panel .form_box .options {
-    width: 262px;
-    height: 38px;
+    width: 212px;
+    height: 15px;
     margin: 12px auto;
     font-size: 13px;
     margin-left: 32px;
@@ -307,14 +321,19 @@ a {
 }
 
 .inputbox-input {
-    border-right: 1px solid red;
-    text-indent: 35px;
-    height: 40px;
-    border-radius: 3px;
-    line-height: 40px;
+    text-indent: 26px;
+    height: 32px;
+    line-height: 32px;
     background: #f4f6f8 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAACACAMAAADefKITAAAAM1BMV…G2IpTbejVdtvzqCIA/uiIU23sO3xyD0+1Z9swqF8KKotzOBwAIF+1hRg5WAAAAAElFTkSuQmCC) no-repeat 8px 11px;
+    
+    width: 100%
 }
-
+.login_inputbox_user{
+    margin-bottom: 10px;
+}
+.login_inputbox_password{
+    margin-bottom: 11px;
+}
 .form_box .textbox input[name=password] {
     background-position: 8px -25px;
 }

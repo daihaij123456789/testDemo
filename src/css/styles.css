@@ -30,9 +30,12 @@
     width: 76px;
 }
 
-.inputbox {
+.login_inputbox {
+    z-index: 10;
     height: 32px;
     border: 1px solid #cfcfcf;
+    text-indent: 8px;
+    background: #f4f6f8 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAACACAMAAADefKITAAAAM1BMV…G2IpTbejVdtvzqCIA/uiIU23sO3xyD0+1Z9swqF8KKotzOBwAIF+1hRg5WAAAAAElFTkSuQmCC) no-repeat 8px 11px;
 }
 
 #background {
